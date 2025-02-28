@@ -8,7 +8,7 @@ const RollDice = (props) => {
         <DiceContainer>
             <div className='dice' onClick={props.rollFunc}>
                
-                <img src={`/src/assets/faces/dice_${props.currDice}.png`} alt="" height="200px" width="200px"/>
+                <img src={`/public/faces/dice_${props.currDice}.png`} alt="" height="200px" width="200px"/>
             </div>
             <p>
                 Click on the Dice to roll
